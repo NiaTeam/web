@@ -96,3 +96,14 @@ a.tooltip.animate:after, a.tooltip.animate:before {
 html {
   overflow-x: hidden;
 }
+
+/* copy right */
+.copy-right{ 
+color: #fff;
+display: inline-block;
+padding: 4px 10px;
+background: #4e545a;
+border-radius: 2px;
+}
+
+
