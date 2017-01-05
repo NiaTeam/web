@@ -161,7 +161,7 @@ border-radius: 3px;
 	line-height: 38px;
 	color: #FFF;
 }
-.tieicon-up-open:before,.tieicon-up:before {
-	content: '\e75f';
+.tieicon-up-open:before, .tieicon-up:before {
+    content: '\e75f';
 }
 
