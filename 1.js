@@ -78,7 +78,7 @@ Licensed under the MIT license
 
     		// divide the amount of pixels scrolled by the total height to scroll minus the height of the window
     		// and round the result to two decimal places
-    		var percentScrolled = ((content_height - window_height) / (window_offest - content_offset)) * 100).toFixed(2);
+    		var percentScrolled = ((amountScrolled / (heightToScroll - windowHeight)) * 100).toFixed(2);
     		
     		console.log(e.originalEvent);
     		
