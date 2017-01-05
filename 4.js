@@ -44,13 +44,13 @@ Licensed under the MIT license
     	var elOverflow = el.css('overflow');
     	var elOverflowY = el.css('overflow-y');
     
-    	var hasOverflow = (elOverflow === 'auto' || elOverflow === 'scroll' || elOverflowY === 'auto' || elOverflowY === 'scroll') ? true : false;
+    	var content_height = reading_content.height();
     
-    	var windowHeight = $(window).outerHeight();
+    	var windowHeight = $window.height();
     
-        var heightToScroll = (hasOverflow) ? el[0].scrollHeight : el.height();
+        var window_offest = $window.scrollTop();
         
-        var elementToScroll = (hasOverflow) ? el : $(window);
+        var content_offset = reading_content.offset().top;
     
     	var progressBar = '<div class="scrollgress"><div class="scrollgress__progress"></div></div>';
 
@@ -74,12 +74,11 @@ Licensed under the MIT license
     	
     	elementToScroll.scroll(function(e) {
     	
-    		var amountScrolled = (hasOverflow) ? el.scrollTop() : $(document).scrollTop();
 
     		// divide the amount of pixels scrolled by the total height to scroll minus the height of the window
     		// and round the result to two decimal places
-    		var percentScrolled = (100 * (window_offest - content_offset) / (content_height - window_height)).toFixed(2);
-    		
+		if (window_offest > content_offset) {
+						percentScrolled = 100 * (window_offest - content_offset) / (content_height - window_height);    		
     		console.log(e.originalEvent);
     		
 			
