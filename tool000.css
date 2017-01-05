@@ -133,4 +133,35 @@ border-radius: 3px;
     	color: white;
 }
 
+/* top button */
+#topcontrol{
+	z-index:2;
+	background: #31373e ;
+	width: 40px;
+	height: 40px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	position:fixed;
+	bottom:-100px;
+	right:10px;
+	cursor:pointer;
+	-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		-o-transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+		transition: all .3s ease-in-out;
+		overflow:auto;
+		opacity:.7;
+}
+#topcontrol:hover{ opacity:1;}
+#topcontrol:before {
+	width: 40px;
+	height: 40px;
+	line-height: 38px;
+	color: #FFF;
+}
+.tieicon-down:before { content: '\e75c'; }
+.tieicon-up-open:before, .tieicon-up:before { content: '/e75f'; }
+.tieicon-home:before {content: '\2302'; font-size: 14px; width: 20px; height: 20px;}
 
