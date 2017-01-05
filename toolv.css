@@ -136,7 +136,7 @@ border-radius: 3px;
 /* top button */
 #topcontrol{
 	z-index:2;
-	background: #444 ;
+	background: #31373e ;
 	width: 40px;
 	height: 40px;
 	border-radius: 2px;
@@ -154,10 +154,14 @@ border-radius: 3px;
 		overflow:auto;
 		opacity:.7;
 }
-	#topcontrol:hover{ opacity:1;}
-	#topcontrol:before {
-		width: 40px;
-		height: 40px;
-		line-height: 38px;
-		color: #FFF;
-	}
+#topcontrol:hover{ opacity:1;}
+#topcontrol:before {
+	width: 40px;
+	height: 40px;
+	line-height: 38px;
+	color: #FFF;
+}
+.tieicon-up-open:before,.tieicon-up:before {
+	content: '\e75f';
+}
+
