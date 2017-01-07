@@ -154,3 +154,15 @@ border-radius: 3px;
     opacity: 0.7;
 }
 
+/* animation menu */
+.cssmenu {
+                position: fixed;
+                width: 100%;
+                top: 0;
+                background-color: #555;
+                text-align: center;
+                padding: 20px 0;
+                transition: all 0.5s ease;
+            }
+            .cssmenu.hidden {
+                transform: translate3d(0,-100%,0);}
