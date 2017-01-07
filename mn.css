@@ -155,7 +155,7 @@ border-radius: 3px;
 }
 
 /* animation menu */
-.cssmenu {
+.menu-top {
                 position: fixed;
                 width: 100%;
                 top: 0;
@@ -164,5 +164,5 @@ border-radius: 3px;
                 padding: 20px 0;
                 transition: all 0.5s ease;
             }
-            .cssmenu.hidden {
-                transform: translate3d(0,-100%,0);}
+            .menu-top.hidden {
+                transform: translate3d(9,-100%,0);}
