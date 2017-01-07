@@ -107,22 +107,6 @@ border-radius: 3px;
 -webkit-user-select: none;
 }
 
-/* bar */
-#reading-position-indicator {
-	display: block;
-	height: 4px;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	background: #cd2122;
-	width: 0;
-	z-index: 9999;
-	max-width: 100%;
-}
-#reading-position-indicator {
-	background-color:#ff3d0d !important;
-}
-
 /* selection */
 ::-moz-selection{
 	background: #4e72a9;
@@ -168,20 +152,5 @@ border-radius: 3px;
     font-size: 18px;
     margin-right: 11px;
     opacity: 0.7;
-}
-
-/* responsive */
-.cnmunav2 {
-  color: #444;
-  display: none;
-  float: right;
-  font: 14px tahoma;
-  margin: 2px 4px 5px 3px;
-  padding: 2px 4px 5px 3px;
-  width: 100px;
-}
-@media screen and (max-width : 700px) {
-#maymenu {display: none;}
-.cnmunav2 {display:block;}
 }
 
