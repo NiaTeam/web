@@ -240,8 +240,8 @@ table tr:hover td{
     background: #f1f1f1;
 }
 
-/* how bk */
-how-bk:before, howbk:before{
+/* simple how */
+sim-how:before, simhow:before{
     content: "";
     width: 0;
     height: 0;
@@ -251,7 +251,7 @@ how-bk:before, howbk:before{
     border: 7px solid transparent;
     border-top-color: #31373e;
 }
-how-bk, how-bk {
+sim-how, simhow {
     position: relative;
     background-color: #31373e;
     color: #fff;
@@ -261,4 +261,26 @@ how-bk, how-bk {
     margin: -8px 0;
     width: 100%;
     font-size: 19px;
+}
+
+/* simple life */
+sim-life {
+    display: block;
+    position: relative;
+    background-color: #31373e;
+    color: #eee;
+    border-radius: 5px!important;
+    margin: .75em 0;
+    padding: 10px 15px;
+    font-size: 19px;
+}
+sim-life:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 15px;
+    border: 7px solid transparent;
+    border-color: transparent transparent #31373e;
 }
