@@ -24,7 +24,7 @@
 [data-tooltip]:after {
   height: 22px;
   padding: 11px 11px 0 11px;
-  font-size: 13px;
+  font-size: 17px;
   line-height: 11px;
   content: attr(data-tooltip);
   white-space: nowrap;
@@ -34,28 +34,28 @@
 }
 [data-tooltip].simptip-position-top:after {
   background-color: #323232;
-  color: #ecf0f1;
+  color: #f8f8f8;
 }
 [data-tooltip].simptip-position-bottom:before {
   border-bottom-color: #323232;
 }
 [data-tooltip].simptip-position-bottom:after {
   background-color: #323232;
-  color: #ecf0f1;
+  color: #f8f8f8;
 }
 [data-tooltip].simptip-position-left:before {
   border-left-color: #323232;
 }
 [data-tooltip].simptip-position-left:after {
   background-color: #323232;
-  color: #ecf0f1;
+  color: #f8f8f8;
 }
 [data-tooltip].simptip-position-right:before {
   border-right-color: #323232;
 }
 [data-tooltip].simptip-position-right:after {
   background-color: #323232;
-  color: #ecf0f1;
+  color: #f8f8f8;
 }
 [data-tooltip].simptip-position-top.half-arrow:before {
   border-right: 7px solid #323232;
@@ -304,28 +304,28 @@
 }
 .simptip-success.simptip-position-top:after {
   background-color: #62c462;
-  color: #ecf0f1;
+  color: #f8f8f8;
 }
 .simptip-success.simptip-position-bottom:before {
   border-bottom-color: #62c462;
 }
 .simptip-success.simptip-position-bottom:after {
   background-color: #62c462;
-  color: #ecf0f1;
+  color: #f8f8f8;
 }
 .simptip-success.simptip-position-left:before {
   border-left-color: #62c462;
 }
 .simptip-success.simptip-position-left:after {
   background-color: #62c462;
-  color: #ecf0f1;
+  color: #f8f8f8;
 }
 .simptip-success.simptip-position-right:before {
   border-right-color: #62c462;
 }
 .simptip-success.simptip-position-right:after {
   background-color: #62c462;
-  color: #ecf0f1;
+  color: #f8f8f8;
 }
 .simptip-success.simptip-position-top.half-arrow:before {
   border-right: 7px solid #62c462;
@@ -339,28 +339,28 @@
 }
 .simptip-info.simptip-position-top:after {
   background-color: #4e72a9;
-  color: #ecf0f1;
+  color: #f8f8f8;
 }
 .simptip-info.simptip-position-bottom:before {
   border-bottom-color: #4e72a9;
 }
 .simptip-info.simptip-position-bottom:after {
   background-color: #4e72a9;
-  color: #ecf0f1;
+  color: #f8f8f8;
 }
 .simptip-info.simptip-position-left:before {
   border-left-color: #4e72a9;
 }
 .simptip-info.simptip-position-left:after {
   background-color: #4e72a9;
-  color: #ecf0f1;
+  color: #f8f8f8;
 }
 .simptip-info.simptip-position-right:before {
   border-right-color: #4e72a9;
 }
 .simptip-info.simptip-position-right:after {
   background-color: #4e72a9;
-  color: #ecf0f1;
+  color: #f8f8f8;
 }
 .simptip-info.simptip-position-top.half-arrow:before {
   border-right: 7px solid #4e72a9;
@@ -374,28 +374,28 @@
 }
 .simptip-danger.simptip-position-top:after {
   background-color: #e05555;
-  color: #ecf0f1;
+  color: #f8f8f8;
 }
 .simptip-danger.simptip-position-bottom:before {
   border-bottom-color: #e74c3c;
 }
 .simptip-danger.simptip-position-bottom:after {
   background-color: #e74c3c;
-  color: #ecf0f1;
+  color: #f8f8f8;
 }
 .simptip-danger.simptip-position-left:before {
   border-left-color: #e74c3c;
 }
 .simptip-danger.simptip-position-left:after {
   background-color: #e74c3c;
-  color: #ecf0f1;
+  color: #f8f8f8;
 }
 .simptip-danger.simptip-position-right:before {
   border-right-color: #e74c3c;
 }
 .simptip-danger.simptip-position-right:after {
   background-color: #e74c3c;
-  color: #ecf0f1;
+  color: #f8f8f8;
 }
 .simptip-danger.simptip-position-top.half-arrow:before {
   border-right: 7px solid #e74c3c;
@@ -409,28 +409,28 @@
 }
 .simptip-warning.simptip-position-top:after {
   background-color: #e69145;
-  color: #ecf0f1;
+  color: #f8f8f8;
 }
 .simptip-warning.simptip-position-bottom:before {
   border-bottom-color: #e69145;
 }
 .simptip-warning.simptip-position-bottom:after {
   background-color: #e69145;
-  color: #ecf0f1;
+  color: #f8f8f8;
 }
 .simptip-warning.simptip-position-left:before {
   border-left-color: #e69145;
 }
 .simptip-warning.simptip-position-left:after {
   background-color: #e69145;
-  color: #ecf0f1;
+  color: #f8f8f8;
 }
 .simptip-warning.simptip-position-right:before {
   border-right-color: #e69145;
 }
 .simptip-warning.simptip-position-right:after {
   background-color: #e69145;
-  color: #ecf0f1;
+  color: #f8f8f8;
 }
 .simptip-warning.simptip-position-top.half-arrow:before {
   border-right: 7px solid #e69145;
