@@ -239,3 +239,24 @@ table tr:last-child td:last-child{
 table tr:hover td{
     background: #f1f1f1;
 }
+
+/* how bk */
+how-bk:before, howbk:before{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 100%;
+    right: 15px;
+    border: 7px solid transparent;
+    border-top-color: #31373e;
+}
+how-bk, how-bk {
+    position: relative;
+    background-color: #31373e;
+    color: #fff;
+    border-radius: 2px!important;
+    padding: 6px 18px;
+    display: table-cell;
+    margin: -8px 0;
+    width: 100%;
