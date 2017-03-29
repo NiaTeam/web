@@ -191,3 +191,15 @@ sim-life:before {
     border: 7px solid transparent;
     border-color: transparent transparent #31373e;
 }
+
+/* simple update */
+sim-up {
+    display: block;
+    position: relative;
+    background-color: #31373e;
+    color: #eee;
+    border-radius: 5px!important;
+    margin: .75em 0;
+    padding: 10px 15px;
+    font-size: 19px;
+}
