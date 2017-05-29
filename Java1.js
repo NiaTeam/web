@@ -1,6 +1,6 @@
 // top button
 	jQuery(window).scroll(function(){
-		if (jQuery(this).scrollTop() &gt; 100) {
+		if (jQuery(this).scrollTop() > 100) {
 			jQuery(&#39;#topcontrol&#39;).css({bottom:&quot;15px&quot;});
 		} else {
 			jQuery(&#39;#topcontrol&#39;).css({bottom:&quot;-100px&quot;});
