@@ -1385,7 +1385,7 @@
   transition-property: color, background-color;
 }
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
-  background-color: #4e72a9;
+  background-color: #d44949;
   color: white;
 }
 
@@ -1428,8 +1428,8 @@
   animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  background-color: #4e72a9;
-  background-color: #4e72a9;
+  background-color: #d44949;
+  background-color: #d44949;
   color: white;
 }
 
@@ -1457,7 +1457,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #4e72a9;
+  background: #d44949;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
@@ -1501,7 +1501,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #4e72a9;
+  background: #d44949;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 100% 50%;
@@ -1545,7 +1545,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #4e72a9;
+  background: #d44949;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
@@ -1589,7 +1589,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #4e72a9;
+  background: #d44949;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 100%;
@@ -1633,7 +1633,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #4e72a9;
+  background: #d44949;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
@@ -1679,7 +1679,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #4e72a9;
+  background: #d44949;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 100% 50%;
@@ -1725,7 +1725,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #4e72a9;
+  background: #d44949;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
@@ -1771,7 +1771,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #4e72a9;
+  background: #d44949;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 100%;
@@ -1819,7 +1819,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #4e72a9;
+  background: #d44949;
   border-radius: 100%;
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -1850,7 +1850,7 @@
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   overflow: hidden;
-  background: #4e72a9;
+  background: #d44949;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -1894,7 +1894,7 @@
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
-  background: #4e72a9;
+  background: #d44949;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -1951,7 +1951,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #4e72a9;
+  background: #d44949;
   -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-transition-property: transform;
@@ -1980,7 +1980,7 @@
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
-  background: #4e72a9;
+  background: #d44949;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -2039,7 +2039,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #4e72a9;
+  background: #d44949;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 50%;
@@ -2070,7 +2070,7 @@
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
-  background: #4e72a9;
+  background: #d44949;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -2129,7 +2129,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #4e72a9;
+  background: #d44949;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50%;
@@ -2168,7 +2168,7 @@
   /* Hack to improve aliasing on mobile/tablet devices */
 }
 .hvr-border-fade:hover, .hvr-border-fade:focus, .hvr-border-fade:active {
-  box-shadow: inset 0 0 0 4px #4e72a9, 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: inset 0 0 0 4px #d44949, 0 0 1px rgba(0, 0, 0, 0);
   /* Hack to improve aliasing on mobile/tablet devices */
 }
 
@@ -2426,7 +2426,7 @@
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #4e72a9;
+  background: #d44949;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -2459,7 +2459,7 @@
   left: 50%;
   right: 50%;
   bottom: 0;
-  background: #4e72a9;
+  background: #d44949;
   height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -2526,7 +2526,7 @@
   left: 0;
   right: 100%;
   top: 0;
-  background: #4e72a9;
+  background: #d44949;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -2559,7 +2559,7 @@
   left: 50%;
   right: 50%;
   top: 0;
-  background: #4e72a9;
+  background: #d44949;
   height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -2593,7 +2593,7 @@
   left: 100%;
   right: 0;
   top: 0;
-  background: #4e72a9;
+  background: #d44949;
   height: 4px;
   -webkit-transition-property: left;
   transition-property: left;
@@ -2627,7 +2627,7 @@
   right: 0;
   top: 0;
   bottom: 0;
-  border-color: #4e72a9;
+  border-color: #d44949;
   border-style: solid;
   border-width: 0;
   -webkit-transition-property: border-width;
@@ -2663,7 +2663,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #4e72a9;
+  background: #d44949;
   height: 4px;
   -webkit-transform: translateY(4px);
   transform: translateY(4px);
@@ -2699,7 +2699,7 @@
   left: 0;
   right: 0;
   top: 0;
-  background: #4e72a9;
+  background: #d44949;
   height: 4px;
   -webkit-transform: translateY(-4px);
   transform: translateY(-4px);
