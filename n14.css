@@ -203,3 +203,17 @@ sim-up {
     padding: 10px 15px;
     font-size: 19px;
 }
+/* Icon */ 
+sim-up h4:after {
+content: '\f073';
+font-family: fontawesome;
+width: 32px;
+background: #ab3c3c;
+height: 32px;
+text-align: center !important;
+line-height: 32px;
+display: inline-block;
+font-size: 17px;
+border-radius: 3px;
+margin-left: 6px;
+}
